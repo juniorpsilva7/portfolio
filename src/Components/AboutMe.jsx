@@ -57,7 +57,7 @@ export default function AboutMe() {
       <div className="flex flex-col w-full sm:w-1/2 gap-4">
         <div className="font-bold">Skills:</div>
         <div className="flex flex-col text-justify">
-          <li className="">Code Langs: Javascript (focus) | PHP | C#</li>
+          <li className="">Code Langs: JS/TS (focus) | PHP | C#</li>
           <li className="">
             Fullstack: Node.js (focus) | React (focus) | Angular | .Net Core
           </li>

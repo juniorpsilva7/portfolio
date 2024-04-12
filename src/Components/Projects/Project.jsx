@@ -2,24 +2,24 @@ import React from "react";
 
 export default function Project({ title, description, videoURL }) {
   return (
-    <div className="flex justify-center items-center">
-      <div>
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/TzzGer9cKhA?si=ueUh2-mJO6laG0xo&rel=0"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-        ></iframe>
-      </div>
-      <div className="w-1/3">
-        <div className=" text-xl font-bold">{title.toUpperCase()}</div>
-        <div className=" font-extralight">{description}</div>
-      </div>
-      {/* <div>{videoURL}</div> */}
+    <div className="flex flex-col sm:flex-row justify-center items-center gap-6 sm:gap-10 w-full">
+        <div className="sm:hidden text-xl font-bold">{title.toUpperCase()}</div>
+        <div className="w-full h-[200px] sm:w-[420px] sm:h-[240px]">
+            <iframe
+            //   className=" w-[420px] h-[240px]"
+            className=" w-full h-full"
+            src={videoURL}
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+            ></iframe>
+        </div>
+        <div className="flex flex-col w-full sm:w-1/3 gap-4">
+            <div className="hidden sm:block text-xl font-bold">{title.toUpperCase()}</div>
+            <div className=" font-extralight">{description}</div>
+        </div>
+        {/* <div>{videoURL}</div> */}
     </div>
   );
 }

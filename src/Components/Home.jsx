@@ -6,6 +6,9 @@ import AboutMe from './AboutMe';
 import Experiences from './Experiences/ExperiencesSection';
 import DividerWithText from './utils/DividerWithText';
 import ProjectsSection from './Projects/ProjectsSection';
+import EducationsSection from './Education/EducationsSection'
+import Footer from './shared/Footer';
+import { Element } from 'react-scroll';
 
 export default function Home() {
   return (
@@ -14,11 +17,14 @@ export default function Home() {
         <Header />
         {/* <Divider /> */}
         <AboutMe />
-        <DividerWithText text={"Projects"} />
+        <Element name="projects" className="element"><DividerWithText text={"Projects"} /></Element>
         <ProjectsSection />
-        <DividerWithText text={"Experiences"} />
+        <Element name="experiences" className="element"><DividerWithText text={"Experiences"} /></Element>
         <Experiences />
+        <Element name="education" className="element"><DividerWithText text={"Education"} /></Element>
+        <EducationsSection />
         <Divider />
+        <Footer />
     </div>
   )
 }
