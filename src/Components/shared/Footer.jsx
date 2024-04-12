@@ -1,6 +1,6 @@
 import React from 'react'
 import juniorLogo from "../../assets/img/Logo Junior Silva.png"
-import logoWhats from "../../assets/img/logo_whats.png"
+// import logoWhats from "../../assets/img/logo_whats.png"
 
 export default function Footer() {
   return (
