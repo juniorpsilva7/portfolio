@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.b560ccdf.css",
-    "main.js": "/portfolio/static/js/main.9e466da8.js",
-    "static/media/profile.png": "/portfolio/static/media/profile.0f0840448a49c9fead1a.png",
-    "static/media/logo_whats.png": "/portfolio/static/media/logo_whats.75e3d2d50a4f30f82985.png",
-    "static/media/unifei_logo.png": "/portfolio/static/media/unifei_logo.2f783b60b56e3813bbfe.png",
-    "static/media/nodejs.png": "/portfolio/static/media/nodejs.7621df1889611f190eb2.png",
-    "static/media/NET_Core_Logo.png": "/portfolio/static/media/NET_Core_Logo.2398d48bb4d4be45da48.png",
-    "static/media/react_logo.png": "/portfolio/static/media/react_logo.910a4d1d82733f31bd50.png",
-    "static/media/brasil.png": "/portfolio/static/media/brasil.99c41be9d6f55b83a35a.png",
-    "static/media/estados-unidos.png": "/portfolio/static/media/estados-unidos.a1fc118ed9c993844853.png",
-    "static/media/espanha.png": "/portfolio/static/media/espanha.09945efd998584311bf1.png",
-    "index.html": "/portfolio/index.html",
-    "main.b560ccdf.css.map": "/portfolio/static/css/main.b560ccdf.css.map",
-    "main.9e466da8.js.map": "/portfolio/static/js/main.9e466da8.js.map"
+    "main.css": "/static/css/main.b560ccdf.css",
+    "main.js": "/static/js/main.bbc37e10.js",
+    "static/media/profile.png": "/static/media/profile.0f0840448a49c9fead1a.png",
+    "static/media/logo_whats.png": "/static/media/logo_whats.75e3d2d50a4f30f82985.png",
+    "static/media/unifei_logo.png": "/static/media/unifei_logo.2f783b60b56e3813bbfe.png",
+    "static/media/nodejs.png": "/static/media/nodejs.7621df1889611f190eb2.png",
+    "static/media/NET_Core_Logo.png": "/static/media/NET_Core_Logo.2398d48bb4d4be45da48.png",
+    "static/media/react_logo.png": "/static/media/react_logo.910a4d1d82733f31bd50.png",
+    "static/media/brasil.png": "/static/media/brasil.99c41be9d6f55b83a35a.png",
+    "static/media/estados-unidos.png": "/static/media/estados-unidos.a1fc118ed9c993844853.png",
+    "static/media/espanha.png": "/static/media/espanha.09945efd998584311bf1.png",
+    "index.html": "/index.html",
+    "main.b560ccdf.css.map": "/static/css/main.b560ccdf.css.map",
+    "main.bbc37e10.js.map": "/static/js/main.bbc37e10.js.map"
   },
   "entrypoints": [
     "static/css/main.b560ccdf.css",
-    "static/js/main.9e466da8.js"
+    "static/js/main.bbc37e10.js"
   ]
 }
