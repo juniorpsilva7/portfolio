@@ -4,6 +4,7 @@ export default function Project({ title, description, videoURL }) {
   return (
     <div className="flex flex-col sm:flex-row justify-center items-center gap-6 sm:gap-10 w-full">
         <div className="sm:hidden text-xl font-bold">{title.toUpperCase()}</div>
+        { videoURL && 
         <div className="w-full h-[200px] sm:w-[420px] sm:h-[240px]">
             <iframe
             //   className=" w-[420px] h-[240px]"
@@ -15,6 +16,7 @@ export default function Project({ title, description, videoURL }) {
             allowFullScreen
             ></iframe>
         </div>
+        }
         <div className="flex flex-col w-full sm:w-1/3 gap-4">
             <div className="hidden sm:block text-xl font-bold">{title.toUpperCase()}</div>
             <div className=" font-extralight">{description}</div>

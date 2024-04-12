@@ -2,12 +2,22 @@ import React from 'react'
 import brazilFlag from "../assets/img/brasil.png"
 import euaFlag from "../assets/img/estados-unidos.png"
 import espanhaFlag from "../assets/img/espanha.png"
+import linkedInLogo from "../assets/img/linkedin.png"
 
 export default function AboutMe() {
   return (
     <div className="flex flex-col sm:flex-row w-full text-white py-6 px-6 sm:px-12 gap-6 sm:gap-12 justify-center items-start">
       <div className="flex flex-col w-full sm:w-1/2 gap-4">
-        <div className=" font-bold">About Me</div>
+        <div className='flex justify-between'>
+          <div className=" font-bold">About Me</div>
+          <a className="w-6 h-full overflow-hidden" href="https://www.linkedin.com/in/juniorpsilva/" target="_blank" rel="noreferrer" title="Open in a new tab">
+              <img
+                className="mx-auto h-auto w-auto"
+                src={linkedInLogo}
+                alt="Profile"
+              />
+          </a>
+        </div>
         <div className='text-justify'>
           More than 15 years working with Technology, 4 years as software
           developer. Focus on Javascrit/Typescript stacks such as Node.js and

@@ -16,14 +16,14 @@ export default function Header() {
             <img className="mx-auto h-auto w-auto" src={profile} alt="Profile" />
         </div>
 
-        <div className="sm:hidden flex w-full h-full justify-center items-center gap-2 mt-10">
+        <a className="sm:hidden flex w-full h-full justify-center items-center gap-2 mt-10" href="https://wa.me/5535991685152">
             <div className="w-8 h-full overflow-hidden animate-pulse">
                 <img className="mx-auto h-auto w-auto" src={logoWhats} alt="Profile" />
             </div>
             <div className="flex text-xl text-white whitespace-nowrap">
                 Contact
             </div>
-        </div>
+        </a>
         
       </div>
       
@@ -37,14 +37,14 @@ export default function Header() {
           Fullstack Developer
         </div>
 
-        <div className="hidden sm:flex sm:w-full justify-center items-center gap-2 mt-10">
+        <a className="hidden sm:flex sm:w-full justify-center items-center gap-2 mt-10" href="https://wa.me/5535991685152">
             <div className="w-8 h-full overflow-hidden animate-pulse">
                 <img className="mx-auto h-auto w-auto" src={logoWhats} alt="Profile" />
             </div>
             <div className="flex text-3xl text-white whitespace-nowrap">
                 Contact
             </div>
-        </div>
+        </a>
       </div>
 
       <div className="hidden sm:flex sm:flex-col justify-center items-start w-1/3 px-20 gap-4">
