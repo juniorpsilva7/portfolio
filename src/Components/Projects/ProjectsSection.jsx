@@ -10,7 +10,7 @@ export default function ProjectsSection() {
             title={"Este site Portfolio"}
             description={`Este site foi desenvolvido usando React + tailwind. Dessa forma pude ter velocidade no desenvolvimento e entregar um portfolio
             apresentável. Ele é totalmente responsivo (ajustado manualmente no tailwind), apresentando boa qualidade de exibição tando para mobile (first)
-            quanto para desktop.`}
+            quanto para desktop. Deploy feito no github pages.`}
         />
 
         <Divider />
