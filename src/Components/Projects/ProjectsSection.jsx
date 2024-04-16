@@ -11,6 +11,7 @@ export default function ProjectsSection() {
             description={`Este site foi desenvolvido usando React + tailwind. Dessa forma pude ter velocidade no desenvolvimento e entregar um portfolio
             apresentável. Ele é totalmente responsivo (ajustado manualmente no tailwind), apresentando boa qualidade de exibição tando para mobile (first)
             quanto para desktop. Deploy feito no github pages.`}
+            githubLink={'https://github.com/juniorpsilva7/portfolio'}
         />
 
         <Divider />
@@ -22,6 +23,7 @@ export default function ProjectsSection() {
             App com autenticação e também com OAuth autenticando pelo facebook onde cada usuário pode cadastrar sua loja e seus produtos. 
             Persistência feita no MongoDB, com validações nos campos e na controller. No node.js foi usado Express, passport e outras bibliotecas 
             como 'mongoose' 'ejs', 'fs', 'multer'. No angular também foram usadas bibliotecas como bootstrap, ng-file-upload.`}
+            githubLink={"https://github.com/juniorpsilva7/meanapp"}
         />
 
         <Divider />
@@ -31,6 +33,7 @@ export default function ProjectsSection() {
             videoURL={"https://www.youtube.com/embed/DhiyfWowg1M?si=TuskE3VfQPO1rdoa&rel=0"}
             description={`Projeto Front-end, feito com React + Local Storage. Aplicativo de controle de finanças simples com entradas e saídas, mostrando um dashboard 
             calculado em tempo real.`}
+            githubLink={"https://github.com/juniorpsilva7/appfinancas"}
         />
 
         <Divider />
@@ -40,6 +43,7 @@ export default function ProjectsSection() {
             videoURL={"https://www.youtube.com/embed/VHQtLQo_NMI?si=mY1mC3QyR_O6Q1qT&rel=0"}
             description={`Projeto Front-end, feito com React + API Google Maps.
             App que recebe um CEP, faz a consulta via API, retorna todos os dados do endereço e mostra o ponto exato no google maps. Estilização com react-materialize.`}
+            githubLink={"https://github.com/juniorpsilva7/reactceptest"}
         />
 
         <Divider />
@@ -49,6 +53,7 @@ export default function ProjectsSection() {
             videoURL={"https://www.youtube.com/embed/rPIhJIIxSsM?si=M5qyZGR5Yo0LtC05&rel=0"}
             description={`Projeto Back-end, feito com Node.js + MySql.
             API feita em node.js que recebe um arquivo CSV, salva no banco de dados (MySql) e permite serviços de consulta com query params. Testes com Jest.`}
+            githubLink={"https://github.com/juniorpsilva7/apinode-csv-queryparam"}
         />
 
     </div>
