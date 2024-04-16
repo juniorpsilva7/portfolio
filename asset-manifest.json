@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a37a4371.css",
-    "main.js": "/static/js/main.aaf625fb.js",
+    "main.css": "/static/css/main.1d0097b6.css",
+    "main.js": "/static/js/main.7817b008.js",
     "static/media/profile.png": "/static/media/profile.0f0840448a49c9fead1a.png",
     "static/media/logo_whats.png": "/static/media/logo_whats.75e3d2d50a4f30f82985.png",
     "static/media/unifei_logo.png": "/static/media/unifei_logo.2f783b60b56e3813bbfe.png",
@@ -12,11 +12,11 @@
     "static/media/estados-unidos.png": "/static/media/estados-unidos.a1fc118ed9c993844853.png",
     "static/media/espanha.png": "/static/media/espanha.09945efd998584311bf1.png",
     "index.html": "/index.html",
-    "main.a37a4371.css.map": "/static/css/main.a37a4371.css.map",
-    "main.aaf625fb.js.map": "/static/js/main.aaf625fb.js.map"
+    "main.1d0097b6.css.map": "/static/css/main.1d0097b6.css.map",
+    "main.7817b008.js.map": "/static/js/main.7817b008.js.map"
   },
   "entrypoints": [
-    "static/css/main.a37a4371.css",
-    "static/js/main.aaf625fb.js"
+    "static/css/main.1d0097b6.css",
+    "static/js/main.7817b008.js"
   ]
 }
