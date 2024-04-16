@@ -21,7 +21,7 @@ export default function Project({ title, description, videoURL, githubLink }) {
             <div className="hidden sm:block text-xl font-bold">{title.toUpperCase()}</div>
             <div className=" font-extralight">{description}</div>
             { githubLink &&
-            <div className="flex gap-2 w-fit">
+            <div className="flex flex-col sm:flex-row sm:gap-2 w-fit">
               <div className="font-bold">Github:</div>
               <a href={githubLink} target="_blank" rel="noreferrer" className=" font-extralight underline">{githubLink}</a>
             </div>
