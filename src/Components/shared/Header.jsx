@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from 'react-i18next';
 import profile from "../../assets/img/profile.png";
 import juniorLogo from "../../assets/img/Logo Junior Silva.png";
 import logoWhats from "../../assets/img/logo_whats.png"
@@ -8,6 +9,9 @@ import dotNetLogo from "../../assets/img/NET_Core_Logo.png"
 import angularLogo from "../../assets/img/angular.png"
 
 export default function Header() {
+  
+  const { t } = useTranslation();
+
   return (
     <div className="flex flex-col-reverse sm:flex-row w-full h-fit bg-neutral-700 justify-center">
 
@@ -21,7 +25,7 @@ export default function Header() {
                 <img className="mx-auto h-auto w-auto" src={logoWhats} alt="Profile" />
             </div>
             <div className="flex text-xl text-white whitespace-nowrap">
-                Contact
+                {t("Contact")}
             </div>
         </a>
         
@@ -34,7 +38,7 @@ export default function Header() {
           alt="Junior Silva"
         />
         <div className="w-full flex justify-end items-end text-3xl text-white whitespace-nowrap">
-          Fullstack Developer
+          {t("Fullstack Developer")}
         </div>
 
         <a className="hidden sm:flex sm:w-full justify-center items-center gap-2 mt-10" href="https://wa.me/5535991685152">
@@ -42,13 +46,13 @@ export default function Header() {
                 <img className="mx-auto h-auto w-auto" src={logoWhats} alt="Profile" />
             </div>
             <div className="flex text-3xl text-white whitespace-nowrap">
-                Contact
+              {t("Contact")}
             </div>
         </a>
       </div>
 
       <div className="hidden sm:flex sm:flex-col justify-center items-start w-1/3 px-20 gap-4">
-        <div className="text-white text-xl">main stacks:</div>
+        <div className="text-white text-xl">{t("main stacks")}:</div>
         <div className="flex justify-center items-center gap-6 w-full">
             <div className="flex justify-center items-center min-w-20 max-w-20 h-full overflow-hidden">
                 <img className="mx-auto h-auto w-auto" src={nodejsLogo} alt="nodejs" />
