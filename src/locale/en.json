@@ -12,7 +12,7 @@
         "Native": "Native",
         "Fluent": "Fluent",
         "This website Portfolio": "This website Portfolio",
-        "Project Portfolio Description":"This website was developed using React + tailwind. This way I was able to speed up development and deliver a presentable portfolio. It is fully responsive (manually adjusted in tailwind), presenting good display quality for both mobile (first) and desktop. Deployment done on github pages.",
+        "Project Portfolio Description":"This website was developed using React + tailwind. This way I was able to speed up development and deliver a presentable portfolio. It is fully responsive (manually adjusted in tailwind), presenting good display quality for both mobile (first) and desktop. Deployment done on github pages and used react-i18next for internacionalization.",
         "App Registration Stores Products": "App Registration Stores & Products",
         "Project Stores Products Description": "Fullstack project, made with Node.js + MongoDB + AngularJS. App with authentication and also with OAuth authenticating through Facebook where each user can register their store and products. Persistence made in MongoDB, with validations in the fields and in the controller. In node.js, Express, passport and other libraries such as 'mongoose' 'ejs', 'fs', 'multer' were used. In angular, libraries such as bootstrap, ng-file-upload were also used.",
         "Simple Finance App - made with React + Local Storage":"Simple Finance App - made with React + Local Storage",
