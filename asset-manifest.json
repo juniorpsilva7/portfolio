@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.c1059f22.css",
-    "main.js": "/static/js/main.d4e22711.js",
+    "main.js": "/static/js/main.5a3af9bb.js",
     "static/media/profile.png": "/static/media/profile.0f0840448a49c9fead1a.png",
     "static/media/logo_whats.png": "/static/media/logo_whats.75e3d2d50a4f30f82985.png",
     "static/media/unifei_logo.png": "/static/media/unifei_logo.2f783b60b56e3813bbfe.png",
     "static/media/nodejs.png": "/static/media/nodejs.7621df1889611f190eb2.png",
+    "static/media/confidencial.png": "/static/media/confidencial.a4eac1d005502bcb0127.png",
     "static/media/NET_Core_Logo.png": "/static/media/NET_Core_Logo.2398d48bb4d4be45da48.png",
     "static/media/react_logo.png": "/static/media/react_logo.910a4d1d82733f31bd50.png",
     "static/media/brasil.png": "/static/media/brasil.99c41be9d6f55b83a35a.png",
@@ -13,10 +14,10 @@
     "static/media/espanha.png": "/static/media/espanha.09945efd998584311bf1.png",
     "index.html": "/index.html",
     "main.c1059f22.css.map": "/static/css/main.c1059f22.css.map",
-    "main.d4e22711.js.map": "/static/js/main.d4e22711.js.map"
+    "main.5a3af9bb.js.map": "/static/js/main.5a3af9bb.js.map"
   },
   "entrypoints": [
     "static/css/main.c1059f22.css",
-    "static/js/main.d4e22711.js"
+    "static/js/main.5a3af9bb.js"
   ]
 }
